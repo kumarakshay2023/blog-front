@@ -27,7 +27,7 @@ const Signup = () => {
         password
     }
     try {
-        const res = await axios.post('http://localhost:3030/user/register',signupData)
+        const res = await axios.post('http://51.20.142.237:3030/user/register',signupData)
         const token = res.data.token
         localStorage.setItem('token', token);
         setMessage('User Sign Up Sucessfully');

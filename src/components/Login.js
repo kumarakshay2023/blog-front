@@ -27,7 +27,7 @@ const Login = () => {
         email,password
     }
     try {
-        await axios.post('http://localhost:3030/user/login',loginData);
+        await axios.post('http://51.20.142.237:3030/user/login',loginData);
         setMessage('User Login Sucessfully');
         setShowModal(true);
         navigate('/blog');

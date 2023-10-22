@@ -13,7 +13,7 @@ const BlogCard = () => {
   useEffect(() => {
     async function fetchBlogData() {
       try {
-        const response = await axios.get('http://localhost:3030/post/list');
+        const response = await axios.get('http://51.20.142.237:3030/post/list');
         setBlogs(response.data.data);
       } catch (error) {
         console.error('Error fetching blog data: ', error);
