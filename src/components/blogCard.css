@@ -1,0 +1,9 @@
+/* BlogCard.css */
+.blog-heading {
+    font-weight: bold; /* Make the heading bold */
+  }
+  
+  .blog-content {
+    font-style: italic; /* Apply italic style to content text */
+  }
+  

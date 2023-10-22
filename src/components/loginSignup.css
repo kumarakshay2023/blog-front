@@ -1,0 +1,21 @@
+/* LoginSignup.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container form {
+    width: 350px; /* Increase the width as needed */
+    padding: 20px; /* Add padding for spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  /* Additional styling for input fields */
+  .form-control {
+    margin-bottom: 10px; /* Add space between input fields */
+  }
+  
